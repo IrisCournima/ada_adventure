@@ -12,5 +12,6 @@
 	<classpathentry kind="var" path="SLICK_JARS/lwjgl.jar"/>
 	<classpathentry kind="var" path="SLICK_JARS/slick.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SLICK_LIB"/>
+	<classpathentry kind="lib" path="D:/slick/Pack200Task.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

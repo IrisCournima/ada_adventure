@@ -1,5 +1,8 @@
 package personnages;
 
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.SlickException;
+
 public class Personnage {
 
 	private String name;
@@ -28,6 +31,10 @@ public class Personnage {
 		this.name = name;
 		this.surname = surname;
 		this.vies = vies;
+	}
+	public void init(GameContainer container) throws SlickException {
+		// TODO Auto-generated method stub
+		
 	}
 
 	
