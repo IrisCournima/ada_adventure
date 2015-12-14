@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="8">
+ <tileset firstgid="1" source="tuiles/grass.tsx"/>
+ <tileset firstgid="19" name="mountains" tilewidth="32" tileheight="32" tilecount="108">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="127" name="watergrass" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="145" name="water" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="163" name="hole" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/hole.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="181" name="holek" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/holek.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="199" name="holemid" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/holemid.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="217" name="waterfall" tilewidth="32" tileheight="32" tilecount="15">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="232" name="dirt" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="250" name="grassalt" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/grassalt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="268" name="trunk" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="286" name="treetop" tilewidth="32" tileheight="32" tilecount="42">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="328" name="chests" tilewidth="32" tileheight="32" tilecount="6">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/chests.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="334" name="bridges" tilewidth="32" tileheight="32" tilecount="42">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="376" name="logic" tilewidth="32" tileheight="32" tilecount="25">
+  <image source="D:/ada_adventure-master/ada_adventure-master/JAVA/map/tuiles/logic.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="401" name="trunk" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../../../AppData/Local/GitHub/ada_adventure/ada_adventure+test/map/tuiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="419" name="grass" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="tuiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YMQ6DMAwF0OwshAv36hUbLYWGqmBHvOEJBgaI9bGToZQyAHSmNjwzJXjPu/tWp9pYS4AzjAnegW36OKxz0DI7yQ53Ut+uxDFX9edTbmQJAPpkFgOiHd1L2HvEcG6Ym/pcbzlDTcVMFbX2QBt9Al7pJRBD9n5fK70c6N18pvvvf9kjwXf1yhk77Jv/V3Jyrizra48SW6OqBsBBdeOeHK6oybS46iFxdQDWZO9aY1n3AX0hF5kAAAAAAAAAAAAAAAAAAAAAAAAA2PcE9kmIUUCcAAA=
+  </data>
+ </layer>
+ <layer name="background 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YQQrCMBBA0boOulfw/icTryFupJRoA2oyE97b2JWUfMekXRaAPE6H0XcAQBl9A7yUJWePy6T7ecYWT7Oer7L2mFHW/6pZaTFW2VzrMUbZfG6v2XdbXd9/9J3rLnqMZ07iWM+EOelvu861mcjcItPzYG2da2erzD0yaVlnLfr5tNZmo6+9ddahr9bfvhn5v9bnCx36aDnTatGPvSMWe0IsWsSiRyx6xKZPLHqMUztbvetxTfSuOitn3Vi0iMNsxKJFLHoAAPCNs/c9oRz1AAAAAAAAAAAAAAAAAAAAAAAAAAAA+IkHXgh2aUCcAAA=
+  </data>
+ </layer>
+ <layer name="background 3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2c227rIBBF0z9IH9rz0Pbr+6ONdRSVWlwGhjEzm72kSiiBJBhmMbapbzdCCCFXc39Z/QvIk7fHWLw//v5xTFzw8RiHz8ffV/DxSGM8SrkEgq+eMZ7Gu+dyCRRfPWM8jXfP5RKIvooMSnwg9OEAJT7SPnhYq3vX8BSEWH/2wcNa3buGp6D5ysNa3buGpyD6KjpIvooOmq+ig+4rDzmVdT7mkVwfPORU1vmYV3J98JBTWedjXkHoAxIIzj1A9tVBpHF6BfcVylyLSC4OWnOtFjurclqUOdTrq1q/V+a0u/qq1m/mtHosfXUl9FXfe5bsnF9JfUXGuNJXlvkWfTX+nkUZJTav8hXzLRnMr3yBkF8doMQKUn4V6RpoCfrKF/SVL670FfcztOn11WgMcD+DjF5fjXqB135lIN0f3NFXXok6h85IfOWtnCPiHMrR8pW3co0dfOWtXALdV9E4xuz7hukrQgghhMTDwzker/H+x8M5Hq/x/uLhHI/XeP8ijXGL54lo/FJqG9lZ0hi3eJ6Ixi+lttGdJY1xi+eJaPxSanu8fg/uLCRfRY+P3O+f0c9Vvoq+pp9//6x+an21y/2nHGnfNcdopL4mFnfJr1b7SnP/Kfr6geYrtPwquq+ixwear6Kv8x59JRnLmq8ij8eBha80zpEeU+ZXcl9Z79FhftXvAc05nSa/2sVXPazMkXbwVS+rcqRdfHXFd6eMzoldfdW7n6CnPn3V5yvpfoLcs0Uk+w/oqz5fSfYTlJ4tIt1/MLrPZ1dftZg1x0f2+ezmK2s0+3x28ZXVPfbZn7ODr6z2BFl9zur41iDx1ew9QZb3xumrvnrWx4u+6qt3xfGir+T1LPbrptBX8nq184RW+Wh7F7Slr+T1SucJs//nA81XZyx8JTm3uwvqrLw+bcGsHFVSr+dYneuex6kEmq9yWPiqhWbvCX0lr6c9Vq3voK/k9WrHKtduZOyQfZW7n1Rj1Fe5dpp5juir0v2kGqO+yrUbneeovjq/vsJXrfc1exs9szq/arWb7TPPeMivWu1m+sw7s/u12lcIzOoXfaVnZr9GY22mr6LHDJKHEWLmB09KxrlAnAAA
+  </data>
+ </layer>
+ <layer name="overground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2c2Y7cIBBFxz+SRNmUdbI8JHlI8v+fFfIwGnoEuAoofKu4R0JCA3YbA4dym5774+7uS0qfU7oPkifX8yz1w/OUXrA/IHid+uFNSm/ZHxB8SP3wMaVPzvvjZbr+V87b8J8ovnqXrv/9cdse5HyNKL56iEny9iDna0TzVd4e5HyNaL7yTjRfeSearxDWau0anhPNVwhrtXYNz4nmK4S1WruG50TzlXei+co70Xzlnci+QoiprOMxVEq+QoiprOMxVEq+QoiprOMxVBhfYcH4CouSrzyOtci+ao21Vl9d2Y8ex1CJkq9aY63VV3nZ6ph2V1+1+iovWx3T0lftstUxLX2lK7OGvtKVWUNf6cqsoa90ZdbxFn2lK7OOt+grXZl1vEVf6cqsoa90ZdbQV7oya+grXZk19JWuzBr6Svc53M8gY6avWnA/g4yZvmrB/QwytL5CZVdfoeJxDJU48xVavobHMVTizFdo+Rq7+AotXyOyrzwSxVcEi6vXZz6f33L1+szn81uuXp/5fH7L13T931L6fsTKe+VHuvafKf06YuW98jtd+5+U/h6x8l6RznGtCyT1R/xSO9a7s6RzXOsCSf0Rv9SO9e4s6RzXukBSf8QvtWO9O4u+wuLp/K61h75aw9P5XWvPSl9Jxvguvhq5R9r6I3ORvlrnK8kYp6/oqxXQV1jQV1jQV1jQV1jQV1hY+WrEOfTVua+0jDhnZIzv4istI84ZGRO7+GrFZz8wMiZ29JV2P4G2Pn2l85VkP0F+Hu3+A/pK5yvJfoL8PNr9ByP7fHb0lYRZY1yb39FX1ozs89nBV1bv2C3Os4OvrPYEWZwHYX6PIPHVzD1BI9+FSKCvdPWs7xd9patnfb/oK3m9FfeKvpLXqz0nzPzNB30lr1d7Tpj5m49oviph4Sur33xE81UJC1+d0ft+PJqvSlj46oze9+P0lbye5l71vh+nr+T1aveqdFzvOI/qq9r7pBa9viod1zvOo/qq9j6pRa+vSsf1jvOovsr/foWvzso1fesJhPjq7LiZPkMHIb46O26mz9CZ2S4EX3lnZrvoq3Fmtqt3rtFXj9TiKO/5CCD8n6SZ3717B+H/JM387t0j/wCwPAFhQJwAAA==
+  </data>
+ </layer>
+ <layer name="overground 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100" visible="0" opacity="0.55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2a0W7DIAwA27/u2/bpUzWhhQyIDQEb905CimIgsW+BpNrr+Xi8aK5aBCLks/v9H8GHL/Dhi0g+dmqSXHbFurb4yLGuLT5yIuSQiJBLhBwSEXKxXntG16haLrtiXWd85FjXGR85EXJIRMglQg6JCLlEyCERIZdaDtb7xYr9xiP48AU+fBEhh0SEXCLkkIiQi2S92oUd7/lMj4/e2Gzw0Y6t3rPx0Y7hQw8+fDHTx2rwoYvNBh+62Gzw0R9bvbfsAj58gQ9frPQxG3zoYrPBhy42G3zoYrPBhy42G3z0x3i/KnO3D+m18FEGH77o8eGVHe/5DD58IfHhrWlz2Ql8+AIfvoiQQyTw4QvrtWf1muYd67rhI8e6bvjIsa4bTnKsa4aPHOua4SPneP/fz79zx/i57/ez3UfbXzvneWzt/I5OSj5qfAn7afpr55SM/cJHd3985ODDFyUfV3niYx5efdwxFh/6/vjIwYcv8OELfPgCH77Ahy/w4Qt8+AIfvtD4SP2lzPZRu59P8qFhhY/WnPgoz98CHzkjPo751o6v+uMjp9fHcdwdDR+/WPuQPh+SZ/H8zH2SjzS2dfw61UWzvh1rOtJ2w3o/r4GPax/S/O5wyXrV9iF9ZlZ+u1yNxYfuG3B0nqux+Lj3f0ru2Ht2w7OPXvCh6ze7VviQ9xt5b5Ie40Pe7xi/4/ui9L0RzUc6fwQfa6j5OGO1Xp3r+j4u1TvyelVilo+euaTXwAc+RvHkQ7NntWod2Uc6P9vHyDtd7RrRfJR+88bHXDz7SPdXOm6di+ojxd9YrFdX8av9JaKPxG4+dkWzFkn+3vAxhsaHBHyMsdpHuqZ23Cf6iNZ2xLpm+Mixrhntf/sBkT6zpUCcAAA=
+  </data>
+ </layer>
+ <objectgroup name="trigger">
+  <object id="1" name="tp1" type="teleport" x="1624.24" y="1466.67" width="57.5758" height="42.4242" visible="0"/>
+  <object id="6" name="tp1" type="teleport" x="1615.15" y="1466.67" width="66.6667" height="39.3939">
+   <properties>
+    <property name="dest-x" value="3000"/>
+    <property name="dest-y" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
